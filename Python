@@ -1,6 +1,51 @@
-print("     Welcome to Piks Adventure      ");
-print("Menu :");
-pirnt("1. New Adventure")
-pirnt("2. Credits")
-pirnt("3. Options")
-pirnt("4. Exit")
+import os
+def color_change():
+    print("""
+        0 = Black       8 = Gray
+        1 = Blue        9 = Light Blue
+        2 = Green       A = Light Green
+        3 = Aqua        B = Light Aqua
+        4 = Red         C = Light Red
+        5 = Purple      D = Light Purple
+        6 = Yellow      E = Light Yellow
+        7 = White       F = Bright White
+    """)
+    color = input("please enter a color: ")
+    os.system("cls")
+    os.system(f"color {color}")
+    print("color changed successfully")
+
+
+print("""
+            WELCOME TO PIKS ADVENTURE 
+
+
+            1. New Adventure
+            2. Credits
+            3. Options
+            4. Exit
+
+
+""")
+
+kaiser = int(input("please pick an option: "))
+
+
+if kaiser == 4:
+    quit()
+
+
+elif kaiser == 2:
+    print("this project was made by piks")
+
+elif kaiser == 3:
+    print(""" 
+            1-change color 
+    """)
+    option = int(input("please enter an option: "))
+    if option == 1:
+        color_change()
+
+
+
+
