@@ -1,1 +1,6 @@
-print("Welcome to Piks Adventure")
+print("     Welcome to Piks Adventure      ");
+print("Menu :");
+pirnt("1. New Adventure")
+pirnt("2. Credits")
+pirnt("3. Options")
+pirnt("4. Exit")
