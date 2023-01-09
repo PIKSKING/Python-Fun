@@ -1,2 +1,4 @@
 # Coding-Fun
-Python,Java,C,C++,C#
+BEFORE YOU RUN:
+run in cmd this command:
+pip install -r requirements.txt
