@@ -23,10 +23,9 @@ def color_change():
 
 def five_dots():
     dot = 0
-    while dot<5:
-        print(".")
+    for dot in range(6):
+        print(".        .        .        .        .")
         time.sleep(0.05)
-        dot = dot+1
 
 
 

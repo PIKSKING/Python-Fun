@@ -29,20 +29,21 @@ def mainfunc():
 
         """)
 
-        kaiser = int(input("please pick an option: "))
+        piks = int(input("please pick an option: "))
 
 
-        if kaiser == 4:
+        if piks == 4:
             quit()
 
-        elif kaiser == 2:
+        elif piks == 2:
             os.system("cls")
             funcs.five_dots()
-            print("this project was made by piks")
+            print("This Game Project Was Made by Pouria Aghaei Shahvali")
             funcs.five_dots()
             time.sleep(3)
+            os.system("cls")
 
-        elif kaiser == 3:
+        elif piks == 3:
             print(""" 
                     1-change color 
                     2-play song
@@ -56,7 +57,7 @@ def mainfunc():
                     Thread(target = mainfunc).start()    
 
             
-        elif kaiser ==1:
+        elif piks ==1:
             os.system("cls")
             print("""YOU WAKE UP ON A BEACH...
             
